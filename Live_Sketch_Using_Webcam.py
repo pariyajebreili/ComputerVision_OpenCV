@@ -25,7 +25,7 @@ cap = cv2.VideoCapture(0)
 while True:
     ret, frame = cap.read()
     cv2.imshow('Our Live Sketcher', sketch(frame))
-    if cv2.waitKey(1) == 13: #13 is the Enter Key
+    if cv2.waitKey(1) == 13: #1 is the Enter Key
         break
         
 # Release camera and close windows
